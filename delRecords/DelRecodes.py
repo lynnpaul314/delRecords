@@ -97,7 +97,8 @@ def getNum():
 if __name__ == '__main__':
     args = getNum()
     #pathRe = f'{os.path.dirname(__file__)}/html/{args.filename}/records.txt'
-    dirPath = f'{getWay()}/html/{args.filename}/'
+    # dirPath = f'{getWay()}/html/{args.filename}/'
+    dirPath = f'{os.path.dirname(__file__)}/html/{args.filename}/'
     # print(dirPath)
     pathRe = f'{dirPath}records.txt'
     # print(pathRe)
